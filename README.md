@@ -9,6 +9,9 @@
 
 <br/>
 
+## About
+
+A helper function to allow quick and convenient traversal up through the directory tree.
 
 ## Install
 
@@ -20,8 +23,11 @@ $ omf install up
 ## Usage
 
 ```fish
-$ up
+$ up [-q] [N]
 ```
+
+Use 'up' to navigate to parent (first ancestor) directory, 'up N' to navigate to N'th ancestor.
+Using the option '-q' will simply query and print the resultant directory without changing to it.
 
 
 # License
